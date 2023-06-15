@@ -85,7 +85,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/06/15/java%E5%A4%8D%E4%B9%A0/">复习</a>
+      <a class="p-name article-title" href="/2023/06/15/java%E5%A4%8D%E4%B9%A0/">JAVA复习</a>
     </h1>
   
 
@@ -93,16 +93,48 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h1><p>你好世界代码</p>
+        <h1 id="复习笔记"><a href="#复习笔记" class="headerlink" title="复习笔记"></a>复习笔记</h1><p>1.你好世界代码编写</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">HW</span>&#123;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;你好世界&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>2.标识符由字母，数字，下滑线和美元符号组成，其中数字不能作为标识符的首字母。</p>
+<p>3.基本变量类型包括整型，浮点型，字符型。</p>
+<p>4.强制类型转化格式</p>
+<p>目标类型 变量 &#x3D;（目标类型）值</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">byte</span> a;</span><br><span class="line"><span class="type">int</span> b;</span><br><span class="line">a=(<span class="type">byte</span>)b;</span><br></pre></td></tr></table></figure>
+
+<p>5.算数运算符</p>
+<p>注意“&#x2F;“表示除。”%“表示取模。取模时运算结果的正负取决于被模数（“%”左边）的符号，如（-5）%3&#x3D;-2。</p>
+<p>6.跳转语句</p>
+<p>break表示跳出循环，continue表示跳出本次循环。</p>
+<p>7.面向对象的3点特性：封装，继承，多态。</p>
+<p>8.类的定义</p>
+<p>class 类名{</p>
+<p>成员变量；</p>
+<p>成员方法；</p>
+<p>}</p>
+<p>9.类的封装</p>
+<p>public公有类，private私有类，通过setter和getter方法设置和获取属性值。</p>
+<p>例子</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getName</span><span class="params">()</span>&#123;</span><br><span class="line">        reture name;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setName</span><span class="params">(String name)</span></span><br><span class="line">        <span class="built_in">this</span>.name=name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>10.构造方法</p>
+<p>（1）构造方法的名称必须和类名一致；</p>
+<p>（2）构造方法前不能有任何类型的返回值类型的声明；</p>
+<p>（3）不能在构造方法中使用return返回一个值，但可以单独写return语句作为方法的结束。</p>
+<p>11.关键字this</p>
+<p>（1）使用this调用本类中的属性；</p>
+<p>（2）使用this调用成员方法；</p>
+<p>（3）使用this调用本类中的构造方法；</p>
+<p>12.静态变量static只能修饰成员变量不能修饰局部变量。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/06/15/java%E5%A4%8D%E4%B9%A0/" data-id="clix1snmt00004cu88jfl2ypk" data-title="复习" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2023/06/15/java%E5%A4%8D%E4%B9%A0/" data-id="clix1snmt00004cu88jfl2ypk" data-title="JAVA复习" class="article-share-link">Share</a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%A4%8D%E4%B9%A0/" rel="tag">复习</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JAVA%E5%A4%8D%E4%B9%A0/" rel="tag">JAVA复习</a></li></ul>
 
     </footer>
   </div>
@@ -234,7 +266,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E6%A0%BC%E6%96%97%E6%B8%B8%E6%88%8F%E5%BD%A2%E8%B1%A1%E8%AE%BE%E8%AE%A1/" rel="tag">java面向对象--格斗游戏形象设计</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%8D%E4%B9%A0/" rel="tag">复习</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/JAVA%E5%A4%8D%E4%B9%A0/" rel="tag">JAVA复习</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E6%A0%BC%E6%96%97%E6%B8%B8%E6%88%8F%E5%BD%A2%E8%B1%A1%E8%AE%BE%E8%AE%A1/" rel="tag">java面向对象--格斗游戏形象设计</a></li></ul>
     </div>
   </div>
 
@@ -244,7 +276,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E6%A0%BC%E6%96%97%E6%B8%B8%E6%88%8F%E5%BD%A2%E8%B1%A1%E8%AE%BE%E8%AE%A1/" style="font-size: 10px;">java面向对象--格斗游戏形象设计</a> <a href="/tags/%E5%A4%8D%E4%B9%A0/" style="font-size: 10px;">复习</a>
+      <a href="/tags/JAVA%E5%A4%8D%E4%B9%A0/" style="font-size: 10px;">JAVA复习</a> <a href="/tags/java%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1-%E6%A0%BC%E6%96%97%E6%B8%B8%E6%88%8F%E5%BD%A2%E8%B1%A1%E8%AE%BE%E8%AE%A1/" style="font-size: 10px;">java面向对象--格斗游戏形象设计</a>
     </div>
   </div>
 
@@ -266,7 +298,7 @@
       <ul>
         
           <li>
-            <a href="/2023/06/15/java%E5%A4%8D%E4%B9%A0/">复习</a>
+            <a href="/2023/06/15/java%E5%A4%8D%E4%B9%A0/">JAVA复习</a>
           </li>
         
           <li>
